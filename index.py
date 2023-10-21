@@ -63,8 +63,6 @@ class Graph(object):
         prev_node = node
       return self.res
     
-
-
 class Solution(object):
 
   def __init__(self):
@@ -141,6 +139,7 @@ if __name__ == "__main__":
   print("> AVG TX TIME: ", solution.get_avg_time()) 
   print("> AVG NUM OF NEIGHBOURS PER NODE (with ROOT): ", solution.get_avg_neighbours())
   print("> AVG NUM OF INDIRECT NEIGHBOURS PER NODE (with ROOT): ", solution.get_avg_indirect_neighbours())
+  print("\t Definition: An indirect neighbour is the neighbour of a direct neighbour of a node")
   print("-----------------------------------------------")
   print("--------------- END OF EXERCISE ---------------")
   print("-----------------------------------------------")
