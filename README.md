@@ -23,3 +23,7 @@ chmod u+x index.py
 ```bash
 ./dag database.txt
 ```
+
+## Output Image
+
+![Alt text](example_output.png)
